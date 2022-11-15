@@ -1,0 +1,159 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeRevolution</title>  
+    <link rel = "icon" href = 
+"icon.png" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style></style>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+ 
+</head>
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">CodeRevolution</a>
+        </div>
+       
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#intro">INTRO</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#js">JS</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#try">TRY IT OUT </a></li>
+          </ul>
+        </div>
+    
+    </nav>
+    <center>
+        <h1>
+            <b>
+              <u>
+                CodeRevolution
+              </u>
+            </b>
+        </h1>
+    </center>
+    <br>
+    <br>
+    <section id="intro" class="first">
+      <div class="firstData">
+        <center>
+        <p class="IntroP">Welcome to CodeRevolution in this website there will be three sections each teaching you a diffrent type of coding and then the final section where you can try out what you have learned (only HTML and CSS). the first type of coding is a backbone for coding websites, it is called HTML (Hyper Text Markup Language). The second type of coding is about the design of the website, it is called CSS (Cascading Style Sheet). the final type of coding this website will teach is JS (Java Script) this makes things on your website change.</p>
+        <br>
+        <p class="IntroP">go to the bottom of the page to go to a website to download visual studio code, 
+          which is the platform that is was used to demonstrate Coding.</p>
+        <br>
+      </center>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <center>
+      <section id="html">
+      <h2><u><b>HTML</b></u></h2>
+      <br>
+      <br>
+      <p>HTML is a language used to create the basic looks of your website.</p>
+      <a href="https://www.w3schools.com/html/html_basic.asp">Click this link to learn some basic code</a>
+      <br>
+      <br>
+      <video controls width="250">
+
+        <source src="HTML basic coding.webm"
+                type="video/webm">
+    </video>
+    
+      <br>
+      <br>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="css">
+      <h2><u><b>CSS</b></u></h2>
+      <br>
+      <br>
+     <p>CSS is used to design the website to make it look better</p>
+     <br>
+     <br>
+     <video controls width="250">
+
+      <source src="CSS BASIC CODING.webm"
+              type="video/webm">
+  </video>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="js">
+      <h2><u><b>JS</b></u></h2>
+      <br>
+      <br>
+      <p id="jsPara">JS is more complicated than CSS and HTML but if mastered can be very usful for websites. it is ues to make things happen, if it is moving something changing it to a diffrent colour sequntially or even making your website play a sound.</p>
+      <br>
+      <br>
+      <video controls width="250">
+
+        <source src="JS BASIC CODING.webm"
+                type="video/webm">
+    </video>
+    </section>
+    <br>
+    <br>
+    <br>
+  <section id="try">
+    <div id="coding_playground_outer">
+      <header id="playground_header">
+        <h1>live Coding Playground</h1>
+      </header>
+      <div class="page-wrap twilight">
+        <div class="boxes">
+          <div id="coding_area">
+            <textarea id="html_input" placeholder="HTML (assume the html tag and body tag area here, this text are is to try out tags in html)" class="prism-live language-html"></textarea> 
+            <textarea id="css_input" placeholder="CSS" class="prism-live language-css"></textarea> 
+            <!-- <textarea id="js_input" placeholder="javascript" class="prism-live language-js"></textarea> -->
+             
+          </div>
+          <div id="js_output_div">
+            
+          </div>
+          <div id="code_output">
+            
+          </div>
+          <button class="btn btn-success" onclick="update()" id="update">Update Code</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href="https://code.visualstudio.com/Download">Visual studio code link</a>
+    </center>
+</body>
+</html> 
